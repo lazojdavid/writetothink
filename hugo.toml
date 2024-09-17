@@ -65,7 +65,7 @@ theme = "hugo-blog-awesome"
   [[Languages.en-gb.menu.main]]
     pageRef="posts"
     name = 'Posts'
-    url = '/posts/'
+    url = '/posts/' #PUSE EL URL ASÍ POR EL ORDEN DE MI DIRECTORIO
     weight = 20
   [[Languages.en-gb.menu.main]]
     pageRef="about"
@@ -80,7 +80,7 @@ theme = "hugo-blog-awesome"
   # the default value is set to 'auto'.
   # You can take a look at layouts/index.html for more information.
   description = "Minimal Hugo blog theme with light and dark mode support"
-  mainSections = ['posts']
+  mainSections = ['/posts']
   toc = true # set to false to disable table of contents 'globally'
   tocOpen = false # set to true to open table of contents by default
   goToTop = true # set to false to disable 'go to top' button
@@ -96,12 +96,16 @@ theme = "hugo-blog-awesome"
   # full - includes full blog post in the RSS feed. Generated using Hugo .Content .
   # By default (or if nothing is specified), summary is used.
 
+
+############EDICION DE LA PAGINA PRINCIPAL######################################
+
+
 [Languages.en-gb.params.author]
   avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
   intro = "David Vasquez"
-  name = "Sidharth R"
-  description = "Un sitio sencillo, donde verás mi evolucion hasta ser científico de datos: Projectos y ocio."
+  name = "David Vasquez "
+  description = "Un sitio sencillo, que responde a preguntas complicadas de forma sencilla. Bienvenidos a mi filosofia de Ciencia de Datos"
 
 # Allow to override webmanifest options
 [Languages.en-gb.params.webmanifest]
@@ -164,7 +168,7 @@ theme = "hugo-blog-awesome"
   avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
   intro = "Awesome hugo blog"
-  name = "Sidharth R"
+  name = "David Vasquez "
   description = "Un tema Hugo veloce e minimalista con supporto per la modalità chiara e scura, per la gestione di un sito o di un blog personale."
 
 # Allow to override webmanifest options
@@ -229,7 +233,7 @@ theme = "hugo-blog-awesome"
   avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
   intro = "Превосходный hugo блог"
-  name = "Sidharth R"
+  name = "David Vasquez "
   description = "Быстрая, минималистичная тема для Hugo с поддержкой светлого и тёмного режима для использования на персональных сайтах и блогах."
 
 # Allow to override webmanifest options
@@ -294,7 +298,7 @@ theme = "hugo-blog-awesome"
   avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
   intro = "Awesome hugo blog"
-  name = "Sidharth R"
+  name = "David Vasquez "
   description = "Ein schnelles, minimalistisches Hugo-Theme mit hellem und dunklem Modus, für eine persönliche Website oder Blog."
 
 # Allow to override webmanifest options
@@ -314,12 +318,18 @@ theme = "hugo-blog-awesome"
 
 [[params.socialIcons]]
 name = "github"
-url = "https://github.com/hugo-sid"
+url = "https://github.com/lazojdavid"
 
 [[params.socialIcons]]
 name = "twitter"
 url = "https://twitter.com"
 
 [[params.socialIcons]]
+name = "instagram"
+url = "https://instagram.com/lazojdavid"
+
+[[params.socialIcons]]
 name = "Rss"
 url = "/index.xml"
+
+
