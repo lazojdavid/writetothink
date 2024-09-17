@@ -8,13 +8,35 @@
     <language>en-gb</language>
     <lastBuildDate>Tue, 17 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Escribir para pensar</title>
-      <link>http://localhost:1313/posts/escribir-para-pensar/</link>
+      <title>Factores</title>
+      <link>http://localhost:1313/posts/factors/</link>
       <pubDate>Tue, 17 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/escribir-para-pensar/</guid>
+      <guid>http://localhost:1313/posts/factors/</guid>
       
       <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Prueba</title>
+      <link>http://localhost:1313/posts/prueba/</link>
+      <pubDate>Tue, 17 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/prueba/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Write to Think</title>
+      <link>http://localhost:1313/posts/wirte-to-think/</link>
+      <pubDate>Tue, 17 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/wirte-to-think/</guid>
+      
+      <description>&lt;p&gt;Hace unos años vi una entrevista de un matemático y se me quedó grabada en la mente la siguiente frase &amp;quot; write to think&amp;quot;; escribe para pensar. Se quedó de tal forma que lo he repetido como un mantra cada vez que me encuentro con alguna nueva rama que no conozco o alguna tecnología que quiero aprender hasta dominarlo. &amp;ldquo;Write to think&amp;rdquo;&lt;/p&gt;</description>
       
     </item>
     
