@@ -1,6 +1,7 @@
 ---
 title: Write to Think 
 date: 2024-09-17
+draf : false
 author: Hugo Authors
 description: Guide to emoji usage in Hugo
 tags: -Filosofia
