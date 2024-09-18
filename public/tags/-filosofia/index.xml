@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>-Filosofia on Awesome Hugo blog</title>
+    <title>-Filosofia on David Vasquez</title>
     <link>http://localhost:1313/tags/-filosofia/</link>
-    <description>Recent content in -Filosofia on Awesome Hugo blog</description>
+    <description>Recent content in -Filosofia on David Vasquez</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Tue, 17 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/-filosofia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cabeza</title>
+      <link>http://localhost:1313/projects/cabeza/</link>
+      <pubDate>Tue, 17 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/cabeza/</guid>
+      
+      <description></description>
+      
+    </item>
+    
     <item>
       <title>Factores</title>
       <link>http://localhost:1313/posts/factors/</link>
@@ -24,6 +35,17 @@
       <pubDate>Tue, 17 Sep 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/prueba/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Riesgo de infarto</title>
+      <link>http://localhost:1313/projects/corazon/</link>
+      <pubDate>Tue, 17 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/corazon/</guid>
       
       <description></description>
       
