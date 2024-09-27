@@ -1,9 +1,9 @@
 ---
-title: Factores 
+title: Duck Typing
 date: 2024-09-17
-author: Hugo Authors
+author: David Vasquez
 draf : false
 description: Guide to emoji usage in Hugo
-tags: -Filosofia
+tags: Machine Learning
 
 ---

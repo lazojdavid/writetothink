@@ -19,22 +19,33 @@
     </item>
     
     <item>
-      <title>Factores</title>
-      <link>http://localhost:1313/posts/factors/</link>
+      <title>Duck Typing</title>
+      <link>http://localhost:1313/posts/duck-typing/</link>
       <pubDate>Tue, 17 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/factors/</guid>
+      <guid>http://localhost:1313/posts/duck-typing/</guid>
       
       <description></description>
       
     </item>
     
     <item>
-      <title>Prueba</title>
-      <link>http://localhost:1313/posts/prueba/</link>
+      <title>One hot Coding</title>
+      <link>http://localhost:1313/posts/one-hot-coding/</link>
       <pubDate>Tue, 17 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/prueba/</guid>
+      <guid>http://localhost:1313/posts/one-hot-coding/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Que es una validación ?</title>
+      <link>http://localhost:1313/posts/validaciones/</link>
+      <pubDate>Tue, 17 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/validaciones/</guid>
       
       <description></description>
       
@@ -59,17 +70,6 @@
       <guid>http://localhost:1313/about/</guid>
       
       <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Write to Think</title>
-      <link>http://localhost:1313/posts/wirte-to-think/</link>
-      <pubDate>Tue, 17 Sep 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/wirte-to-think/</guid>
-      
-      <description>&lt;p&gt;Hace unos años vi una entrevista de un matemático y se me quedó grabada en la mente la siguiente frase &amp;quot; write to think&amp;quot;; escribe para pensar. Se quedó de tal forma que lo he repetido como un mantra cada vez que me encuentro con alguna nueva rama que no conozco o alguna tecnología que quiero aprender hasta dominarlo. &amp;ldquo;Write to think&amp;rdquo;&lt;/p&gt;</description>
       
     </item>
     

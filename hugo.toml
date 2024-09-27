@@ -68,6 +68,14 @@ theme = "hugo-blog-awesome"
     url = '/Projects/'
     weight = 20
 
+  [[Languages.en-gb.menu.main]]
+    pageRef="tecnicas"
+    name = 'Statistics'
+    url = '/Projects/'
+    weight = 20
+  
+  
+
 [Languages.en-gb.params]
   sitename = "Awesome hugo blog"
   defaultColor = "dark" # set color mode: dark, light, auto
@@ -115,6 +123,125 @@ theme = "hugo-blog-awesome"
 
 
 ###################################################################
+
+############################# Spanish language ################################
+[Languages.es]
+  languageName = "Español"
+  languageCode = "es"
+  contentDir = "content/es/"
+  weight = 2
+
+  [Languages.es.menu]
+  [[Languages.es.menu.main]]
+    pageRef = "/"
+    name = 'Inicio'
+    url = '/'
+    weight = 10
+  [[Languages.es.menu.main]]
+    pageRef = "posts"
+    name = 'Publicaciones'
+    url = '/posts/'
+    weight = 20
+  [[Languages.es.menu.main]]
+    pageRef = "about"
+    name = 'Acerca de'
+    url = '/about/'
+    weight = 30
+  [[Languages.es.menu.main]]
+    pageRef = "projects"
+    name = 'Proyectos'
+    url = '/projects/'
+    weight = 20
+  [[Languages.es.menu.main]]
+    pageRef = "tecnicas"
+    name = 'Estadísticas'
+    url = '/projects/'
+    weight = 20
+
+[Languages.es.params]
+  sitename = "Blog Hugo Increíble"
+  defaultColor = "dark"
+  description = "Tema de blog minimalista de Hugo con soporte de modo claro y oscuro"
+  mainSections = ['posts']
+  toc = true
+  tocOpen = false
+  goToTop = true
+  additionalScripts = ['js/custom.js', 'js/custom-2.js']
+
+[Languages.es.params.author]
+  avatar = "avatar.jpg"
+  intro = "David Vasquez"
+  name = "David Vasquez"
+  description = "Un sitio sencillo, que responde a preguntas complicadas de forma sencilla. Bienvenidos a mi filosofía de Ciencia de Datos."
+
+[Languages.es.params.webmanifest]
+  name = "sitename"
+  short_name = "sitename"
+  start_url = "/"
+  theme_color = "#434648"
+  background_color = "#fff"
+  display = "standalone"
+
+##################################################################
+############################# Russian language ################################
+[Languages.ru]
+  languageName = "Русский"
+  languageCode = "ru"
+  contentDir = "content/ru/"
+  weight = 3
+
+  [Languages.ru.menu]
+  [[Languages.ru.menu.main]]
+    pageRef = "/"
+    name = 'Главная'
+    url = '/'
+    weight = 10
+  [[Languages.ru.menu.main]]
+    pageRef = "posts"
+    name = 'Посты'
+    url = '/posts/'
+    weight = 20
+  [[Languages.ru.menu.main]]
+    pageRef = "about"
+    name = 'О нас'
+    url = '/about/'
+    weight = 30
+  [[Languages.ru.menu.main]]
+    pageRef = "projects"
+    name = 'Проекты'
+    url = '/projects/'
+    weight = 20
+  [[Languages.ru.menu.main]]
+    pageRef = "tecnicas"
+    name = 'Статистика'
+    url = '/projects/'
+    weight = 20
+
+[Languages.ru.params]
+  sitename = "Потрясающий блог Hugo"
+  defaultColor = "dark"
+  description = "Минималистичная тема блога Hugo с поддержкой светлого и тёмного режимов"
+  mainSections = ['posts']
+  toc = true
+  tocOpen = false
+  goToTop = true
+  additionalScripts = ['js/custom.js', 'js/custom-2.js']
+
+[Languages.ru.params.author]
+  avatar = "avatar.jpg"
+  intro = "David Vasquez"
+  name = "David Vasquez"
+  description = "Простой сайт, отвечающий на сложные вопросы просто. Добро пожаловать в мою философию Data Science."
+
+[Languages.ru.params.webmanifest]
+  name = "sitename"
+  short_name = "sitename"
+  start_url = "/"
+  theme_color = "#434648"
+  background_color = "#fff"
+  display = "standalone"
+###########################################################################
+
 
 # Allow to override `browserconfig.xml` params (configuration for windows embedded browsers)
 [params.browserconfig]
