@@ -1,0 +1,84 @@
+¡Excelente! Vamos a relacionar estos puntos generales del proceso de desarrollo de un modelo de Machine Learning con la estructura de tu blog. Esto te permitirá darle un enfoque más claro y alineado con las mejores prácticas en proyectos de Machine Learning. Aquí tienes cómo podrías integrar estos puntos en tu flujo de trabajo y decidir cuáles usar en tu blog:
+
+### 1. **Look at the Big Picture**
+
+Este es un punto esencial que te ayuda a conectar tu proyecto de Machine Learning con los **objetivos del negocio** y a definir el **tipo de problema** que estás resolviendo. Vamos a desglosarlo en tres partes y relacionarlo con los apartados de tu blog:
+
+   - **Objetivos del negocio**: Relaciona lo que quieres lograr (predecir precios de viviendas) con el valor que aporta al negocio. Esto lo puedes incluir en la sección de **Objetivo**. Aquí explicas cómo tu modelo ayudará a tomar decisiones importantes, como fijar precios de mercado o identificar áreas de desarrollo.
+   
+   - **Tipo de modelo (E)**: Es importante identificar si el problema es de regresión, clasificación, etc. En tu caso, es un **problema de regresión**. Esto lo puedes agregar en la sección de **Modelado**, donde explicas por qué el modelo de regresión es el más adecuado.
+
+   - **Algoritmos de Machine Learning (T)**: Describe qué algoritmos utilizarás (Random Forest, GridSearchCV, etc.) en la sección de **Modelado**. Aquí es donde especificarás los algoritmos y por qué los elegiste.
+
+   - **Métricas de evaluación (P)**: Describe las métricas que utilizarás para evaluar el desempeño del modelo (MAE, RMSE, R²). Esto encajaría bien en la sección de **Evaluación del Modelo**. Es importante que las métricas estén alineadas con el tipo de problema (en este caso, regresión).
+
+### 2. **Get the Data**
+
+Este paso se relaciona perfectamente con una sección llamada **Obtención de los Datos**, que podría ir después de la introducción en tu blog. Aquí deberías detallar cómo obtuviste el dataset de precios de viviendas en California, mencionar la fuente (como Kaggle), y describir el dataset en términos generales (número de filas, columnas, tipos de variables, etc.).
+
+### 3. **Discover and Visualize the Data to Gain Insights**
+
+Este punto se alinea muy bien con la sección de **Exploración de Datos (EDA)** que mencionamos antes. Aquí puedes visualizar las distribuciones de los datos y analizar las correlaciones entre las variables usando gráficos como histogramas, scatter plots y mapas de calor. La exploración visual te ayudará a identificar relaciones entre las variables que puedes usar en el modelo.
+
+### 4. **Prepare the Data for Machine Learning Algorithms**
+
+Este paso corresponde a la sección de **Preprocesamiento de Datos**. Aquí es donde explicarás cómo preparas los datos para que sean aptos para el modelo de Machine Learning. Las acciones incluirán:
+   - Tratar los valores nulos o faltantes.
+   - Codificar variables categóricas.
+   - Escalar o normalizar los datos.
+   - Dividir los datos en conjuntos de entrenamiento y prueba.
+
+### 5. **Select a Model and Train It**
+
+Esto se relaciona directamente con la sección de **Modelado** de tu blog. Aquí describirás los modelos que has elegido (como Random Forest, Regresión Lineal, etc.) y cómo los entrenas. Puedes también mencionar si utilizas técnicas como *Cross Validation* para asegurarte de que los resultados sean sólidos.
+
+### 6. **Fine-Tune Your Model**
+
+Este paso tiene mucho que ver con la **Optimización del Modelo** en tu blog. Después de entrenar un modelo básico, puedes afinarlo utilizando técnicas como *GridSearchCV* o *RandomizedSearchCV* para encontrar los mejores hiperparámetros que optimicen su rendimiento. Detallar este proceso en tu blog es clave para mostrar cómo mejoras los resultados.
+
+### 7. **Present Your Solution**
+
+Esto lo puedes incluir en una sección de **Conclusiones** o **Resultados**, donde presentas tus hallazgos, la efectividad del modelo, y cómo puede ayudar en la práctica. Es la parte donde resumes los logros, los desafíos y cómo resolviste el problema.
+
+### 8. **Launch, Monitor, and Maintain Your System**
+
+Si el proyecto es aplicado a un entorno de producción (por ejemplo, en una empresa real), este punto sería parte de una sección llamada **Implementación y Mantenimiento** o **Despliegue del Modelo**. Si no llegas a implementar el modelo en un sistema en tiempo real, puedes mencionarlo como **Trabajo Futuro**, sugiriendo que sería posible integrar este modelo en un sistema de monitoreo para hacer predicciones continuamente y ajustarlo según sea necesario.
+
+---
+
+### ¿Cuál te conviene usar?
+
+Dependerá del enfoque que desees darle a tu blog y cuán profundo quieras ir. Sin embargo, te recomiendo integrar todos los puntos hasta la **Presentación de la solución** porque eso cubre desde la obtención de los datos hasta la presentación del modelo optimizado. Los últimos puntos, como el despliegue y mantenimiento, puedes mencionarlos brevemente si planeas hacer algo con el modelo en el futuro, o como parte de **Trabajo Futuro** si no tienes un sistema de producción.
+
+### Estructura sugerida con los nuevos puntos:
+
+1. **Introducción**
+2. **Objetivo**
+3. **Obtención de los Datos**
+4. **Exploración de Datos (EDA)**
+5. **Preprocesamiento de Datos**
+6. **Modelado**
+7. **Optimización del Modelo**
+8. **Evaluación del Modelo**
+9. **Conclusiones y Presentación de la Solución**
+10. **Trabajo Futuro**
+11. **Referencias**
+
+Esta estructura cubre el flujo de trabajo completo y te permite conectar los diferentes pasos del proceso de machine learning con los títulos en tu blog.
+
+¿Te gustaría profundizar en alguno de estos pasos o necesitas ayuda con algún tema en particulari?
+
+
+
+EDA
+#Numericamente
+
+pd.head()
+pd.info()
+pd.describe() # estandar, media, count, 25% 50% 75%
+
+#visualmente
+
+pd.hist()
+-plt.show()
+

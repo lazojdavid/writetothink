@@ -1,0 +1,73 @@
+tipos de data:
+exto sin formato
+
+    Se utiliza en tareas de procesamiento de lenguaje natural (NLP), como clasificación de texto, análisis de sentimientos, traducción automática, etc.
+    Ejemplos: Archivos .txt, documentos .docx, artículos web.
+
+2. Audio
+
+    Se usa en tareas como reconocimiento de voz, análisis de emociones o detección de sonidos.
+    Formatos comunes: .wav, .mp3, .flac.
+
+3. Video
+
+    Para tareas de análisis de video, como detección de objetos en movimiento, clasificación de actividades o reconocimiento facial.
+    Formatos comunes: .mp4, .avi, .mkv.
+
+4. Datos tabulares no estructurados
+
+    Bases de datos que contienen información en formato tabular pero no en archivos CSV o Excel, sino en bases de datos relacionales como SQL, NoSQL.
+    Ejemplo: JSON, SQL, MongoDB.
+
+5. Datos categóricos (discretos)
+
+    Pueden incluir etiquetas o clases que el modelo debe aprender a identificar, como colores, géneros, ubicaciones.
+    Ejemplo: Valores como "Hombre/Mujer", "Sano/Enfermo".
+
+6. Datos numéricos (continuos)
+
+    Datos que se encuentran en forma de números y pueden variar de forma continua.
+    Ejemplos: mediciones, temperatura, peso, precios.
+
+7. Datos de series temporales
+
+    Se usan en modelos que requieren un análisis de datos dependientes del tiempo, como predicción del clima, mercados financieros o monitoreo de dispositivos.
+    Ejemplos: log de sensores, series financieras, datos de IoT.
+    Formatos: CSV, TSV, Excel, o bases de datos específicas.
+
+8. Datos espaciales (GIS)
+
+    Se utilizan para análisis geoespacial, como sistemas de información geográfica (GIS), análisis de mapas, o localización.
+    Formatos: GeoJSON, Shapefile, KML, GPX.
+
+9. Datos estructurados (bases de datos)
+
+    Datos que se encuentran organizados en tablas o esquemas estructurados.
+    Ejemplos: bases de datos SQL como MySQL, PostgreSQL o bases de datos NoSQL como MongoDB.
+
+10. Datos de sensores
+
+    Datos provenientes de sensores de dispositivos IoT, como sensores de temperatura, acelerómetros, cámaras de seguridad.
+    Ejemplos: datos en tiempo real provenientes de dispositivos médicos, dispositivos móviles, automóviles, etc.
+
+11. Datos de gráficos (Graph Data)
+
+    Estructuras de datos que se representan mediante grafos, comunes en redes sociales, recomendaciones o análisis de redes.
+    Ejemplo: Grafo de relaciones, Knowledge Graph.
+
+12. Datos en formato JSON/XML
+
+    Estos formatos suelen usarse en sistemas web y bases de datos NoSQL.
+    Ejemplos: datos API JSON, XML.
+
+13. Datos de eventos o logs
+
+    Datos de logs de sistemas o aplicaciones, utilizados en análisis de seguridad, detección de anomalías o diagnósticos.
+    Ejemplos: Log files, Apache logs.
+
+14. Datos binarios
+
+    Datos en formato binario utilizados para representar cualquier tipo de archivo o estructura compleja.
+    Ejemplos: archivos binarios, archivos serializados como pickle en Python.
+
+    

@@ -259,6 +259,11 @@ url = "https://linkedin.com"
 name = "instagram"
 url = "https://instagram.com/lazojdavid"
 
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+pygmentsStyle = "monokai"
+
+
 
 
 

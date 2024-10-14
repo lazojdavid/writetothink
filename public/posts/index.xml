@@ -6,37 +6,34 @@
     <description>Recent content in Posts on David Vasquez</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 17 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Duck Typing</title>
-      <link>http://localhost:1313/posts/duck-typing/</link>
-      <pubDate>Tue, 17 Sep 2024 00:00:00 +0000</pubDate>
+      <title>Machine Learning, en retrospectiva.</title>
+      <link>http://localhost:1313/posts/prologo/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/duck-typing/</guid>
+      <guid>http://localhost:1313/posts/prologo/</guid>
       
-      <description></description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Los límites de mi lenguaje son los límites de mi mundo&amp;quot; Ludwig Wittgenstein Filósofo y matemático&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div style=&#34;text-align: justify;&#34;&gt;
+&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;
+&lt;p&gt;En esta introducción mencionaré los conceptos que considero fundamnetales para una tener una perspectiva general,  de aquellos engrajanes con los que se mueve esta maquinaria , además ilustaré la explicación con un ejemplo y se verán los conceptos aplicados en usos practicos a través de proyectos de mis proyectos personales: &lt;a&gt;Housing Price California&lt;/a&gt;, &lt;a&gt;o la creación de un modelo para detectar anomalías en el fraude bancario&lt;/a&gt;.
+Cada concepto que requiera una explicación en sí, tendrá su espacio aparte en el que explicaré con mas detalle el punto que toque y de esta manera el lector pueda ir complementando la información por conceptos, ofreciendo de esta manera lo que llamo &lt;em&gt;Grados de conocimiento - de menos más&lt;/em&gt;. Considerandolo una de las formas de aprendizaje que mas me han servido como autodidacta. Dicho esto empezemos.&lt;/p&gt;</description>
       
     </item>
     
     <item>
-      <title>One hot Coding</title>
-      <link>http://localhost:1313/posts/one-hot-coding/</link>
-      <pubDate>Tue, 17 Sep 2024 00:00:00 +0000</pubDate>
+      <title>El regalo de un hombre inútil</title>
+      <link>http://localhost:1313/posts/inutil/</link>
+      <pubDate>Sat, 14 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/one-hot-coding/</guid>
+      <guid>http://localhost:1313/posts/inutil/</guid>
       
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Que es una validación ?</title>
-      <link>http://localhost:1313/posts/validaciones/</link>
-      <pubDate>Tue, 17 Sep 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/validaciones/</guid>
-      
-      <description></description>
+      <description>&lt;div style=&#34;text-align: justify;&#34;&gt;
+El regalo de un hombre inútil es un cuento con el que quiero dar la bienbenida a este blog sobre Machine Learning, este cuento que leí en la tercera entrega del Issac Asimov Magazine, refleja en unas pocas hojas de manera sutíl y profunda la importancia de compartir conocimiento, independientemente si el dador cree o no cree que aquel conocimiento que da, tiene algún valor como para ser compartido.
+&lt;p&gt;Este cuento fue escrito por Alan Dean Foster y publicado en una compilación de otros cuentos dentro de la popular revista Issac Asimov Science Fiction Magazine cuyas primeras ediciones comenzaron desde el año 1977, en esta revista se publicaban novelas cortas, de ciencia ficción dura, en la que tanto maestros del rubro nos compartian por medio de narrativas los mas selectos frutos de su imaginación, sin cerrarles las puertas a los nuevos escritores que tenían una ventana para hacer llegar sus relatos a un público reducido, pero exigente.&lt;/p&gt;</description>
       
     </item>
     

@@ -6,7 +6,24 @@
     <description>Recent content in Machine Learning on David Vasquez</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 17 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Machine Learning, en retrospectiva.</title>
+      <link>http://localhost:1313/posts/prologo/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/prologo/</guid>
+      
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Los límites de mi lenguaje son los límites de mi mundo&amp;quot; Ludwig Wittgenstein Filósofo y matemático&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div style=&#34;text-align: justify;&#34;&gt;
+&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;
+&lt;p&gt;En esta introducción mencionaré los conceptos que considero fundamnetales para una tener una perspectiva general,  de aquellos engrajanes con los que se mueve esta maquinaria , además ilustaré la explicación con un ejemplo y se verán los conceptos aplicados en usos practicos a través de proyectos de mis proyectos personales: &lt;a&gt;Housing Price California&lt;/a&gt;, &lt;a&gt;o la creación de un modelo para detectar anomalías en el fraude bancario&lt;/a&gt;.
+Cada concepto que requiera una explicación en sí, tendrá su espacio aparte en el que explicaré con mas detalle el punto que toque y de esta manera el lector pueda ir complementando la información por conceptos, ofreciendo de esta manera lo que llamo &lt;em&gt;Grados de conocimiento - de menos más&lt;/em&gt;. Considerandolo una de las formas de aprendizaje que mas me han servido como autodidacta. Dicho esto empezemos.&lt;/p&gt;</description>
+      
+    </item>
+    
     <item>
       <title>Duck Typing</title>
       <link>http://localhost:1313/posts/duck-typing/</link>
@@ -19,13 +36,20 @@
     </item>
     
     <item>
-      <title>One hot Coding</title>
+      <title>One hot Encoding</title>
       <link>http://localhost:1313/posts/one-hot-coding/</link>
       <pubDate>Tue, 17 Sep 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/one-hot-coding/</guid>
       
-      <description></description>
+      <description>&lt;p&gt;Entre los primeros pasos al tener un DataFrame o una Serie de datos, se encuentra el método .info() ? &amp;quot; que nos devuelve los siguientes valores de las columnas en cuestión :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Nombres de las columnas&lt;/li&gt;
+&lt;li&gt;Filas con datos en esas columnas&lt;/li&gt;
+&lt;li&gt;El numero de valores no nulos : 144 no-nulos o 130 no-nulos&lt;/li&gt;
+&lt;li&gt;El tipo de dato : float, int, etc&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Gracias a este comando podemos ir trazando una estrategía de lo que nos espera antes de entrenar un modelo, viendo si las columnas tiene valores incompletos, o si se necesita cambiar el tipo de objeto que representa un dato.&lt;/p&gt;</description>
       
     </item>
     

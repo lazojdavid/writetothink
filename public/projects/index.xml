@@ -6,26 +6,23 @@
     <description>Recent content in Projects on David Vasquez</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 17 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>cabeza</title>
-      <link>http://localhost:1313/projects/cabeza/</link>
-      <pubDate>Tue, 17 Sep 2024 00:00:00 +0000</pubDate>
+      <title>Housing Price Predictor</title>
+      <link>http://localhost:1313/projects/housing-california/</link>
+      <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/projects/cabeza/</guid>
+      <guid>http://localhost:1313/projects/housing-california/</guid>
       
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Riesgo de infarto</title>
-      <link>http://localhost:1313/projects/corazon/</link>
-      <pubDate>Tue, 17 Sep 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/projects/corazon/</guid>
-      
-      <description></description>
+      <description>&lt;div style=&#34;text-align: justify;&#34;&gt;
+&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;
+&lt;h3 id=&#34;objetivo&#34;&gt;Objetivo&lt;/h3&gt;
+&lt;p&gt;Lograr predecir el precio de las viviendas en el estado de California utilizando técnicas de Machine Learning validando todos&lt;/p&gt;
+&lt;p&gt;nuestros resultados con técnidas de validación que nos permitan optimizar nuestro modelo, obteniendo los mejores resultados.
+Utilizando la métodología presentada en &lt;a href=&#34;http://localhost:1313/posts/prologo/&#34; target=&#34;_blank&#34;&gt;Machine learning, retrospectiva &lt;/a&gt; que se pueda aplicar a cualquier otro distrito bajo la misma metodología.&lt;/p&gt;
+&lt;h3 id=&#34;descripccion&#34;&gt;Descripccion&lt;/h3&gt;
+&lt;p&gt;Aprovechar todas las dimensiones del dataset &lt;a href=&#34;https://www.kaggle.com/datasets/camnugent/california-housing-prices&#34; target=&#34;_blank&#34;&gt;California Housing Prices&lt;/a&gt; para poder hacer un análisis clasificado como &lt;strong&gt;analítica descriptiva&lt;/strong&gt; de cuales son las variables que se relacionan y en base a eso aplicar métodos de machine learning
+que nos permitan cumplir con nuestro objetivo como: &lt;a href=&#34;https://www.ibm.com/mx-es/topics/random-forest&#34; target=&#34;_blank&#34;&gt;Random Forest Regresor&lt;/a&gt;, &lt;a&gt;GridSearchCv &lt;/a&gt; entre otras.&lt;/p&gt;</description>
       
     </item>
     

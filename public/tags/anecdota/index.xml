@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Anecdota on David Vasquez</title>
+    <link>http://localhost:1313/tags/anecdota/</link>
+    <description>Recent content in Anecdota on David Vasquez</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sat, 14 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/anecdota/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>El regalo de un hombre inútil</title>
+      <link>http://localhost:1313/posts/inutil/</link>
+      <pubDate>Sat, 14 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/inutil/</guid>
+      
+      <description>&lt;div style=&#34;text-align: justify;&#34;&gt;
+El regalo de un hombre inútil es un cuento con el que quiero dar la bienbenida a este blog sobre Machine Learning, este cuento que leí en la tercera entrega del Issac Asimov Magazine, refleja en unas pocas hojas de manera sutíl y profunda la importancia de compartir conocimiento, independientemente si el dador cree o no cree que aquel conocimiento que da, tiene algún valor como para ser compartido.
+&lt;p&gt;Este cuento fue escrito por Alan Dean Foster y publicado en una compilación de otros cuentos dentro de la popular revista Issac Asimov Science Fiction Magazine cuyas primeras ediciones comenzaron desde el año 1977, en esta revista se publicaban novelas cortas, de ciencia ficción dura, en la que tanto maestros del rubro nos compartian por medio de narrativas los mas selectos frutos de su imaginación, sin cerrarles las puertas a los nuevos escritores que tenían una ventana para hacer llegar sus relatos a un público reducido, pero exigente.&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

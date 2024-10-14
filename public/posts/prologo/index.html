@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en-gb"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="content-type" content="text/html">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title itemprop="name">Machine Learning, en retrospectiva. | David Vasquez</title>
+<meta property="og:title" content="Machine Learning, en retrospectiva. | David Vasquez" />
+<meta name="twitter:title" content="Machine Learning, en retrospectiva. | David Vasquez" />
+<meta itemprop="name" content="Machine Learning, en retrospectiva. | David Vasquez" />
+<meta name="application-name" content="Machine Learning, en retrospectiva. | David Vasquez" />
+<meta property="og:site_name" content="Awesome hugo blog" />
+
+<meta name="description" content="Introducción">
+<meta itemprop="description" content="Introducción" />
+<meta property="og:description" content="Introducción" />
+<meta name="twitter:description" content="Introducción" />
+
+<meta property="og:locale" content="en-gb" />
+<meta name="language" content="en-gb" />
+
+  <link rel="alternate" hreflang="en-gb" href="http://localhost:1313/posts/prologo/" title="English" />
+
+
+
+
+
+    
+    
+    
+
+    <meta property="og:type" content="article" />
+    <meta property="og:article:published_time" content=2024-10-01T00:00:00Z />
+    <meta property="article:published_time" content=2024-10-01T00:00:00Z />
+    <meta property="og:url" content="http://localhost:1313/posts/prologo/" />
+
+    
+    <meta property="og:article:author" content="David Vasquez " />
+    <meta property="article:author" content="David Vasquez " />
+    <meta name="author" content="David Vasquez " />
+    
+    
+
+    
+
+    <script defer type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "headline": "Machine Learning, en retrospectiva.",
+        "author": {
+        "@type": "Person",
+        "name": ""
+        },
+        "datePublished": "2024-10-01",
+        "description": "Introducción",
+        "wordCount":  1594 ,
+        "mainEntityOfPage": "True",
+        "dateModified": "2024-10-01",
+        "image": {
+        "@type": "imageObject",
+        "url": ""
+        },
+        "publisher": {
+        "@type": "Organization",
+        "name": "David Vasquez"
+        }
+    }
+    </script>
+
+
+<meta name="generator" content="Hugo 0.134.2">
+
+    
+    <meta property="og:url" content="http://localhost:1313/posts/prologo/">
+  <meta property="og:site_name" content="David Vasquez">
+  <meta property="og:title" content="Machine Learning, en retrospectiva.">
+  <meta property="og:description" content="Introducción">
+  <meta property="og:locale" content="en_gb">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-10-01T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-10-01T00:00:00+00:00">
+    <meta property="article:tag" content="Machine Learning">
+
+
+    
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Machine Learning, en retrospectiva.">
+  <meta name="twitter:description" content="Introducción">
+
+
+    
+
+    <link rel="canonical" href="http://localhost:1313/posts/prologo/">
+    <link href="/style.min.2d921c18cf1ec555ffc03d59a8adc211c402c68c930c27d6a0c306ab175a8d09.css" rel="stylesheet">
+    <link href="/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
+
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg">
+    <link rel="shortcut icon" href="/favicon.ico">
+
+
+
+
+<link rel="manifest" href="http://localhost:1313/site.webmanifest">
+
+<meta name="msapplication-config" content="/browserconfig.xml">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="theme-color" content="#434648">
+
+    
+    <link rel="icon" type="image/svg+xml" href="/icons/favicon.svg">
+
+    </head>
+<body data-theme = "dark" class="notransition">
+
+<script src="/js/theme.js"></script>
+
+<div class="navbar" role="navigation">
+    <nav class="menu" aria-label="Main Navigation">
+        <a href="http://localhost:1313/" class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" 
+viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" 
+stroke-linejoin="round" class="feather feather-home">
+<title>Home</title>
+<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+<polyline points="9 22 9 12 15 12 15 22"></polyline>
+</svg>
+        </a>
+        <input type="checkbox" id="menu-trigger" class="menu-trigger" />
+        <label for="menu-trigger">
+            <span class="menu-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" stroke="currentColor" fill="none" viewBox="0 0 14 14"><title>Menu</title><path stroke-linecap="round" stroke-linejoin="round" d="M10.595 7L3.40726 7"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 3.51488L3.49301 3.51488"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 10.4851H3.49301"></path><path stroke-linecap="round" stroke-linejoin="round" d="M0.5 12.5V1.5C0.5 0.947715 0.947715 0.5 1.5 0.5H12.5C13.0523 0.5 13.5 0.947715 13.5 1.5V12.5C13.5 13.0523 13.0523 13.5 12.5 13.5H1.5C0.947715 13.5 0.5 13.0523 0.5 12.5Z"></path></svg>
+            </span>
+        </label>
+
+        <div class="trigger">
+            <ul class="trigger-container">
+                
+                
+                <li>
+                    <a class="menu-link " href="/">
+                        Home
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a class="menu-link active" href="/posts/">
+                        Posts
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a class="menu-link " href="/projects/">
+                        Projects
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a class="menu-link " href="/projects/">
+                        Statistics
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a class="menu-link " href="/about/">
+                        About
+                    </a>
+                    
+                </li>
+                
+                <li class="menu-separator">
+                    <span>|</span>
+                </li>
+                
+                
+            </ul>
+            <a id="mode" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-sunny" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>LIGHT</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-moon" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>DARK</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+            </a>
+        </div>
+    </nav>
+</div>
+
+<div class="wrapper post">
+    <main class="page-content" aria-label="Content">
+        <article>
+            <header class="header">
+                <h1 class="header-title">Machine Learning, en retrospectiva.</h1>
+                
+                
+                <div class="post-meta">
+                    <time datetime="2024-10-01T00:00:00&#43;00:00" itemprop="datePublished"> 1 Oct 2024 </time>
+                </div>
+                
+            </header>
+            
+    
+    <details class="toc" ZgotmplZ>
+        <summary><b>Table of Contents</b></summary>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#introducción">Introducción</a></li>
+    <li><a href="#machine-learning">Machine Learning</a>
+      <ul>
+        <li><a href="#ejemplo-spam">Ejemplo Spam</a></li>
+      </ul>
+    </li>
+    <li><a href="#principales-retos--e----t---p">Principales retos : E  - T - P</a>
+      <ul>
+        <li><a href="#el-modelo-aprende-de-la-data-e">El modelo aprende de la data (E)</a></li>
+        <li><a href="#problemas-a-resolver-t">Problemas a resolver (T)</a></li>
+        <li><a href="#cómo-sé-si-mi-modelo-sirve-p">¿Cómo sé si mi modelo sirve? (P)</a></li>
+        <li><a href="#pipeline">Pipeline</a></li>
+      </ul>
+    </li>
+    <li><a href="#proceso-general">Proceso general</a></li>
+  </ul>
+</nav>
+    </details>
+            <div class="page-content">
+                <blockquote>
+<p><em>Los límites de mi lenguaje son los límites de mi mundo&quot; Ludwig Wittgenstein Filósofo y matemático</em></p>
+</blockquote>
+<div style="text-align: justify;">
+<h2 id="introducción">Introducción</h2>
+<p>En esta introducción mencionaré los conceptos que considero fundamnetales para una tener una perspectiva general,  de aquellos engrajanes con los que se mueve esta maquinaria , además ilustaré la explicación con un ejemplo y se verán los conceptos aplicados en usos practicos a través de proyectos de mis proyectos personales: <a>Housing Price California</a>, <a>o la creación de un modelo para detectar anomalías en el fraude bancario</a>.
+Cada concepto que requiera una explicación en sí, tendrá su espacio aparte en el que explicaré con mas detalle el punto que toque y de esta manera el lector pueda ir complementando la información por conceptos, ofreciendo de esta manera lo que llamo <em>Grados de conocimiento - de menos más</em>. Considerandolo una de las formas de aprendizaje que mas me han servido como autodidacta. Dicho esto empezemos.</p>
+<p>Utilizaré tres letras clave para poder explicar correctamente las principales relaciones:</p>
+<ul>
+<li>E : Expericiencia obtenida de la data.</li>
+<li>T : Problemas a resolver.</li>
+<li>P : Medida de rendimiento del modelo.</li>
+</ul>
+<p>El objetivo de esta mécanica es utilizar un lenguaje no técnico al momento de explicar lo que es Machine Learning, con el fin de lograr conceptualizar todo este panorama, sin dejar de lado las convenciones, ya que estas son usadas a lo largo de todos los proyectos y las lecturas que pueden encontrar en diferentes fuentes sobre esta área de conocimiento. Por ende mi intención es que el lenguaje sea lo más claro y sencillo posible, sin dejar de lado términos para una correcta base, permitiendoles unir puntos y ver las relaciones entre todos los concpetos que al principio puede parecer no tener nada en común.</p>
+<h2 id="machine-learning">Machine Learning</h2>
+<p>Un programa aprende de cierta manera <strong>E</strong> con respecto al problema que se necesita resolver <strong>T</strong>, bajo una medida de rendimiento <strong>P</strong> en la resolución de cierto problema <strong>T</strong>; la eficiencia con la que, en base a su experiencia resuelve dicho problema va mejorando a su vez con la cantidad de información brindada. La información brindada proviene de la data con la cual se puede trabajar.</p>
+<p>Por el momento nos quedaremos con este concepto sencillo, que iré enriquenciendo conforme avancemos, <em>-menos a más-</em> para que vayan entiendo como es que se juntan las ideas.</p>
+<h3 id="ejemplo-spam">Ejemplo Spam</h3>
+<p>Un caso muy común es el del problema de detectar que correo es spam o no <strong>T</strong>, tendría que pasarle data de correos electrónicos que incluyan correos ordinarios y spam. Con el objetivo que el programa comprenda bajo que patrones han sido señalados como &ldquo;spam&rdquo; ciertos correros en esta data, aprendiendo así de ella <strong>E</strong>, pero no de toda la data en total, si no por medio de subcojuntos : <a>training set</a> y <a>test set</a>, el primero sirve para entrenar al modelo y el segundo como métrica de rendimiento <strong>P</strong> , es decir, que tanto aprendió de los datos de entrenamiento <em>training set</em> y con que éxito pudo predecir los nuvos datos comparandolos con los datos del <em>test set</em>. De esta manera es como funcionaría un programa para detectar spam utilizando Machine Learning.</p>
+<p>De manera tradicional se tendrían que programar manualmente las reglas que detecten que correo es spam cada vez que se descubra un nuevo patrón, lo que es una pésima idea. Imaginate tener que estar reescribiendo un código cada vez que descubras que tipo de patrones sigue un correo spam. Sería absurdo. Sería ineficiente he inacabable.</p>
+<div style="text-align: center;">
+<p><img alt="Landscape" src="/machineretrospectiva/spam1.png"></p>
+<figcaption>Fig 1. Detector de spam con programación clásica</figcaption>
+</div>
+<p>Utilizando Machine Learning la historia es mucho más sencilla de lo que parece. Debido a que la programación se hace de manera automática y este es el poder que nos ofrece debido a la versatilidad de las herramientas que contiene. En este ejemplo, un detector de spam, aprende conforme la información que se le dé, esta puede ser brindada de forma estática dentro de un archivo local <a>batch learning</a> o recopilada en tiempos real <a>online learning. </a></p>
+<div style="text-align: center;">
+<p><img alt="Landscape" src="/machineretrospectiva/spam2.png"></p>
+<figcaption>Fig 2. Detector de spam utilizando Machine Learning</figcaption>
+<div style="text-align: justify;">
+<p>Como nos vamos dando cuenta este enfoque permite reducir problemas que serían complejos con los paradigmas de programación tradicional. Volviendolos mas sencillos de resolver y de entender. Otra ventaja es que la aplicación de esta técnica nos permite poder aprender en el transcurso de su implementación debido a la cantidad de información <em>insights</em> que nos brindará durante la marcha.</p>
+<ul>
+<li>Hay varios <a>Sistemas de Machine learning</a> <em>enfoques</em> que dependerá del tipo de data disponible.</li>
+<li>Cada sistema tiene sus propias herramientas <em>algoritmos</em> para la resolución de problemas.</li>
+<li>Tu principal tarea es escoger los <a>algoritmos de Machine Learning</a> y entrenarlo en base a una data. Puedes fallar en dos cosas: Seleccionar mal un algoritmo o tener una mala data. Esto es lo que separa a los buenos de los malos Ingenieros de Machine Learning.</li>
+</ul>
+<p>Es aquí donde separamos la línea entre la necesidad de tener herramientas conceptuales claras. Hasta ahora hemos visto de manera superficial que es Machine Learning y por qué se debería de utilizar frente a problemas complejos, sin embargo, utilizar esta técnica trae consigo algunos retos importantes.</p>
+<blockquote>
+<p><em>Los límites de mi lenguaje son los límites de mi mundo, los problemas técnicos se resuelven con mayor facilidad al utilizar tus herramientas conceptuales; reconoces lo que está frente a ti? sabes clasificarlo? saque que tipo de sistema de machine learning es? o por qué falla el algortimo?</em></p>
+</blockquote>
+<h2 id="principales-retos--e----t---p">Principales retos : E  - T - P</h2>
+<h3 id="el-modelo-aprende-de-la-data-e">El modelo aprende de la data (E)</h3>
+<p>El rol que juega la Data es el de establecer el <a>Tipo de modelo </a> a emplear, encontrandonos con diferentes <a>tipos de data</a> con los que se puede ir trabajando, donde cada una puede acarrear un problema en particular, tenienndo soluciones diferentes para cada caso : información incompleta, valores fuera del promedio, tipos de datos distintos, etc.</p>
+<p>Como hemos visto anteriormente, los algoritmos utilizados en los modelos recogen experiencia <strong>E</strong> de la información que se les pase, y en base a esta experiencia se realiza las predicciones y el reconocimiento de patrones del problema a resolver <strong>T</strong> , por lo que una data insuficiente, de baja calidad o que en caso no sea representativa, puede mal interpretar los datos y peor aún darnos resultados lejanos a la realidad que esperamos.</p>
+<p>Cada estado de Data tiene un método diferente para trabajarlo, es por eso que se requiere una visualización previa mediante gráficas para poder saber que métodos usar. Por ejemplo las gráficas nos pueden decir que atributos de nuestra data se están saliendo de lo normal que representan las demás <strong>outliers</strong>.</p>
+<h3 id="problemas-a-resolver-t">Problemas a resolver (T)</h3>
+<p>El programa recogerá la experiencia <strong>E</strong> de acuerdo al problema que se quiere resolver <strong>T</strong>, este problema es diferente índole, en el ejemplo de spam, el principal problema era reconocer que correo era un spam propiamente, entonces depende más de que se quiera solucionar con una data. Si por ejemplo se quisiera hacer un sistema para poder reconocer anomalías y prevenir el fraude electronico, el problema vendría a ser, reconocer que transacciones son los fraudes <strong>T</strong></p>
+<h3 id="cómo-sé-si-mi-modelo-sirve-p">¿Cómo sé si mi modelo sirve? (P)</h3>
+<p>Como mencioné previamente La data para poder trabajarse en un modelo se divide en dos subconjuntos: <em>training set</em> y <em>test set</em> ambas pertenecen al mismo conjunto de datos, pero con objetivos diferentes. Sigamos enriqueciendo más nuestro enunciando principal:
+Un programa aprende de cierta manera <strong>E</strong> con respecto al problema que se necesita resolver <strong>T</strong>, bajo una medida de rendimiento <strong>P</strong> en la resolución de cierto problema <strong>T</strong>. Esta medida de rendimiento se obtiene en la comparación de los resultados obtenidos del <em>training set</em> con el <em>test set</em>, debido a que los valores de entrenamiento sirven como su nombre dice para que el programa aprenda los patrones, y el set de pruebas, para verificar si las predicciones están cerca o lejos de los valores reales.
+De esta forma se puede comparar que tan cerca o que tan lejos estan nuestrsa predicciones de nuestros valores, para esto existen <a>tipos de metricas</a> que nos facilitarán esta tarea.</p>
+<h3 id="pipeline">Pipeline</h3>
+<div style="text-align: justify;">
+<p>Luego de ver los múltiples problemas a los que se enfrenta al desarrollar un modelo, es momento de tocar un concepto que se utiliza ampliamnete, y es el de <strong>Pipeline</strong>. Siendo una serie de etapas donde convergen multiples modelos por medio de <strong>Data Stores</strong></p>
+<p><img alt="Landscape" src="/machineretrospectiva/pipeline.png"></p>
+<figcaption>Pipeline en machine learning</figcaption>
+<p>Nuestro modelo predice cierto valor y estos valores se almacenarán en una <strong>Data Store</strong> para ser utilizados por otro modelo cuyo objetivo sea diferente al nuestro pero que a su vez necesite de los resultados de nuestro modelo. Cada equipo puede trabajar en un componente distinto y si algún componente fallara, los demás pueden seguir funcionando, mantiendosé una arquitectura robusta.</p>
+<p>La siguiente imágen representa un panorama más completo de la idea de un pipeline enfocada mas al Machine Learning Operations <a>MLops</a></p>
+<p><img alt="Landscape" src="/machineretrospectiva/pipeline2.png"></p>
+<figcaption> Vista general de un pipeline en Machine Learning - Creditos: @pawelkijko<figcaption>
+</div>
+<h2 id="proceso-general">Proceso general</h2>
+<div style="text-align: justify;"> 
+<ol>
+<li>
+<p>Mira el panorama general (Look at the big picture)</p>
+<ul>
+<li>Que beneficios nos dará el usar este modelo : <strong>Objetivos del negocio</strong></li>
+<li>Que tipo de modelo se utilizará con respecto a la data  <strong>(E)</strong> : <a>tipo de modelo </a></li>
+<li>Que algoritmos se van a usar <strong>(T)</strong> : <a>algoritmos de machine learning</a></li>
+<li>Que tipo de métricas se usarán para evaluar el modelo <strong>(P)</strong> : <a>tipos de métricas</a></li>
+</ul>
+</li>
+<li>
+<p>Obtén los datos (Get the data)</p>
+</li>
+<li>
+<p>Descubre y visualiza los datos para obtener información (Discover and visualize the data to gain insights)</p>
+</li>
+<li>
+<p>Prepara los datos para los algoritmos de Machine Learning (Prepare the data for Machine Learning algorithms)</p>
+</li>
+<li>
+<p>Selecciona un modelo y entrénalo (Select a model and train it)</p>
+</li>
+<li>
+<p>Ajusta y optimiza tu modelo (Fine-tune your model)</p>
+</li>
+<li>
+<p>Presenta tu solución (Present your solution)</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+            </div>
+        </article></main>
+</div>
+<footer class="footer">
+    <span class="footer_item"> </span>
+    &nbsp;
+
+    <div class="footer_social-icons">
+<a href="https://github.com/lazojdavid" target="_blank" rel="noopener noreferrer me"
+    title="Github">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+    </path>
+</svg>
+</a>
+<a href="https://linkedin.com" target="_blank" rel="noopener noreferrer me"
+    title="Linkedin">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+    <rect x="2" y="9" width="4" height="12"></rect>
+    <circle cx="4" cy="4" r="2"></circle>
+</svg>
+</a>
+<a href="https://instagram.com/lazojdavid" target="_blank" rel="noopener noreferrer me"
+    title="Instagram">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+    <line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line>
+</svg>
+</a>
+</div>
+    <small class="footer_copyright">
+        © 2024 David Vasquez . 
+        <spam>powered by <a href="/about">lazojdavid</a></spam> 
+       
+    </small>
+</footer><a href="#" title="Go to top" id="totop">
+    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" stroke="currentColor" viewBox="0 96 960 960">
+    <path d="M283 704.739 234.261 656 480 410.261 725.739 656 677 704.739l-197-197-197 197Z"/>
+</svg>
+
+</a>
+
+
+    
+
+
+
+
+    
+    
+        
+    
+
+    
+    
+        
+    
+
+
+
+    
+    <script async src="http://localhost:1313/js/main.js" ></script>
+
+    
+
+</body>
+</html>
