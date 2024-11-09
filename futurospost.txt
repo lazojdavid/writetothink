@@ -1,22 +1,5 @@
-Panorama general :
-Clean data
+Todo es posible ?
+matematicamente hablandoo - reeleer el libro de Cantor
 
-- Prólogo a Machine Learning
--Duck DuckTyping
--One Hot coding
--Validaciones
--Tipos machine learning y sus task regresion (predictin values) and clasification (predictir clases)
--Retos de machine learning
--Testing and validate ( hiperparameters)
--DuckTyping
--One-hot-coding
--validaciones
 
-Desviación estandar como ún indicador de la fiabilidad de un modelo
--RandomForestRegressor,
--Arbol de decisiones
-- GridSearchCV, 
--RMSE (Raíz del Error cuadrático medio)
--Búsqueda Aleatoria (Randomized Search)
--Métodos de Ensamble (Ensemble Methods)
 

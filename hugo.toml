@@ -108,7 +108,8 @@ theme = "hugo-blog-awesome"
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
   intro = "David Vasquez"
   name = "David Vasquez "
-  description = "Un sitio sencillo, que responde a preguntas complicadas de forma sencilla. Bienvenidos a mi filosofia de Ciencia de Datos"
+  description = "Bievenidos a mi filosofía de ciencia de datos, donde la claridad es una cortesía."
+  
 
 # Allow to override webmanifest options
 [Languages.en-gb.params.webmanifest]

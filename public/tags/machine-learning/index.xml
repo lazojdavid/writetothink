@@ -24,45 +24,5 @@ Cada concepto que requiera una explicación en sí, tendrá su espacio aparte en
       
     </item>
     
-    <item>
-      <title>Duck Typing</title>
-      <link>http://localhost:1313/posts/duck-typing/</link>
-      <pubDate>Tue, 17 Sep 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/duck-typing/</guid>
-      
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>One hot Encoding</title>
-      <link>http://localhost:1313/posts/one-hot-coding/</link>
-      <pubDate>Tue, 17 Sep 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/one-hot-coding/</guid>
-      
-      <description>&lt;p&gt;Entre los primeros pasos al tener un DataFrame o una Serie de datos, se encuentra el método .info() ? &amp;quot; que nos devuelve los siguientes valores de las columnas en cuestión :&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Nombres de las columnas&lt;/li&gt;
-&lt;li&gt;Filas con datos en esas columnas&lt;/li&gt;
-&lt;li&gt;El numero de valores no nulos : 144 no-nulos o 130 no-nulos&lt;/li&gt;
-&lt;li&gt;El tipo de dato : float, int, etc&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Gracias a este comando podemos ir trazando una estrategía de lo que nos espera antes de entrenar un modelo, viendo si las columnas tiene valores incompletos, o si se necesita cambiar el tipo de objeto que representa un dato.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Que es una validación ?</title>
-      <link>http://localhost:1313/posts/validaciones/</link>
-      <pubDate>Tue, 17 Sep 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/validaciones/</guid>
-      
-      <description></description>
-      
-    </item>
-    
   </channel>
 </rss>
